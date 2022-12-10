@@ -1,0 +1,92 @@
+<html>
+      <head>
+            <title>Eye</title>
+      </head>
+<style>
+#ellipse{
+    border:2px solid black;
+    width:250px;
+    height:250px;
+    border-top-right-radius:300px;
+    border-bottom-left-radius:300px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    background-color:black;
+    margin:150px 0 0 550px;
+    transform:rotate(136deg);
+    animation-name: blink;
+    box-shadow: 0 0 25px red;
+    position:static;
+}
+
+#big{
+    border:2px solid black;
+    border-radius:50%;
+    width:115px;
+    height:115px;
+    margin:59px;  
+    animation-name: shiva; 
+    animation-duration: 1s;
+    animation-timing-function: linear; 
+    animation-direction:normal;
+    position:relative;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    background-color:ghostwhite;
+}
+#small{
+    border:2px solid black;
+    border-radius:50%;
+    width:95px;
+    height:95px;
+    margin:8px;
+    background-color:black;
+
+}
+#blink{
+    border: 2px solid red;
+    border-top-left-radius:295px;
+    border-bottom-left-radius:10px;
+    border-top-right-radius:10px;
+    transform:rotate(90deg);
+    border-bottom-right-radius:300px;
+    /* margin:5px; */
+    /* padding:5px;    */
+    position:relative;
+    
+}
+@keyframes shiva{
+    0%{
+        top:2px;;
+        left:2px;
+    }
+    25%{
+        top:2px;
+        left:14px;
+    }
+    50%{
+        top:14px;
+        left:14px;
+    }
+    75%{
+        top:14px;
+        left:2px;
+    }
+    100%{
+        top:2px;
+        left:2px;
+    }
+}
+</style>
+<body>
+
+<div id="ellipse">
+    <div id="big">
+          <div id="small">
+
+
+          </div>
+    </div>
+</div>
+
+</html>
