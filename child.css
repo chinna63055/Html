@@ -1,0 +1,14 @@
+#child1{
+    background-color: red;
+    position: sticky;
+    left: 400px;
+}
+#child2{
+    background-color: blue;
+}
+#child3{
+    background-color: orange;
+}
+/* div{
+    width: fit-content;
+} */
