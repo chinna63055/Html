@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <style>
+        body{
+            margin: 100px;
+            padding: 0;
+            background-color: rgb(74, 74, 233);
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        div{
+            background-color: white;
+            width: fit-content;
+            height: 700px;
+            width: 450px;
+
+        }
+        table{
+            font-style: bold;
+            font-size: 20px;
+
+        }
+        /* label{
+            font-size: 20px;
+        } */
+    </style>
+</head>
+<body><center>
+    <div>
+        <table border="0" cellspacing="1px" cellpadding="15px">
+            <tr>
+                <td colspan="4"><label><h3><u>Re</u>gistration</h3></label></td>
+            
+            </tr>
+            <tr>
+                <td colspan="2"><label for="name">Full Name</label></td>
+                <td colspan="2"><label for="username">Username</label> </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text"id="name" placeholder="Enter your name"></td>
+                <td colspan="2"> <input type="text" id="username" placeholder="Enter your username"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="email">Email</label></td>
+                <td colspan="2"><label for="phonenumber">Phone Number</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" value="@gmail.com" placeholder="Enter your email" id="email"></td>
+                <td colspan="2"><input type="number" placeholder="Enter ypur number"id="phonenumber"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="password">Password</label></td>
+                <td colspan="2"><label for="confirmpassword">ConfirmPassword</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="password" placeholder="Enter your password" id="password"></td>
+                <td colspan="2"><input type="password" placeholder="Confirm your password" id="confirmpassword"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><label for="gender">Gender</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender" id="gender">Male</td>
+                <td><input type="radio" name="gender" id="gender">Female</td>
+                <td colspan="2"><input type="radio" name="gender" id="gender">Prefer not to say</td>
+            </tr>
+            <tr>
+                <td  style="color:white"colspan="4" align="center"bgcolor="blue">
+                    
+                        Register
+                    
+                </td>
+            </tr>
+        </table>
+    </div>
+</center>
+</body>
+</html>

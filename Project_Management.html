@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            margin-left:400px ;
+            background-color: black;
+        }
+        #d{
+            height: 900px;
+            width: 600px;
+            background-color: aliceblue;
+            
+        }
+        #d1{
+            height: 680px;
+            width:480px;
+            background-color: rgb(29, 131, 186);
+            position: relative;
+            left: 60px;
+            top: 8px;
+        }
+        h1{
+            text-align: center;
+            padding-top:10px ;
+        }
+        table{
+            
+            color: aliceblue;
+            text-align: center;
+            font-size: 25px;
+        }
+        button{
+            padding-left: 10px;
+            border-left: 10px;
+        }
+        button{
+            padding: 22px;
+            margin-left: 12px;
+            border-radius: 7px;
+            position: relative;
+            right: 30px;
+            border-color: rgb(29, 131, 186);
+            font-size: 20px;
+
+        }
+        #green{
+            background-color: green;
+            color: aliceblue;
+        }
+        #blue{
+            background-color: blue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="d">
+        <h1><u>Project Management</u></h1>
+        <div id="d1">
+            <center>
+                <table border="0" cellpadding="4px"cellspacing="10px">
+                    <tr>
+                        <th><label for="pn">Project Name</label></th> 
+                        <th colspan="3"><input type="text" placeholder="Project Name"id="pn"></th>
+                    </tr>
+                    <tr>
+                        <td><label for="a">Assigned to</label></td>
+                        <td colspan="4"><input type="text" value="Er Merry Pelision"id="a"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="s">Start Date</label></td>
+                        <td colspan="4"><input type="datetime-local" id="s"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="e">End Date</label></td>
+                        <td colspan="4"><input type="datetime-local"id="e"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="p">Priority</label></td>
+                        <td><input type="radio" name="p" id="p">High</td>
+                        <td><input type="radio" name="p" id="p">Average</td>
+                        <td><input type="radio" name="p" id="p">Low</td>
+                    </tr>
+                    <tr>
+                        <td><label  for="d">Description</label></td>
+                        <td colspan="4"><textarea col="4"rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"><center><button id="green">Submit</button><button id="blue">clear</button></center></td>
+                    </tr>
+                    
+                </table>
+           
+            </center>
+             </div>
+    </div>
+</body>
+</html>
